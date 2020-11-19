@@ -30,47 +30,5 @@
     {% elif error %}
         <p style="color: red">Make sure the link is correct</p>
     {% endif %}
-
     <hr>
-
-    <!-- <form action="#" method="get" class="form-group">
-        <legend>
-            Get the rates in a specific day: (the year 1998 and below is invalid )
-        </legend>
-        <input type="number" placeholder="year" name="yearINP" size="1" />
-        <input type="number" placeholder="month" name="monthINP" size="1" />
-        <input type="number" placeholder="day" name="dayINP" size="1" />
-        <br>
-        <input type="submit" class="btn btn-primary mt-2" value="Click" name="date" />
-    </form>
-
-    {% if year %}
-    <p style="color: green">year : {{ year }}</p>
-    {% endif %}
-    
-    <hr>
-
-    <form action="#" method="get" class="form-group">
-        <legend>Compare one currency to another</legend>
-        <label for="baseCurrency">Base Currency</label>
-        <select class="form-control" id="baseCurrency" name="bas">
-            <option value="EUR">EUR</option>
-            <option value="USD">USD</option>
-            <option value="GBP">GBP</option>
-        </select>
-        <div class="form-group">
-            <label for="symCurrency">Second Currency</label>
-            <select class="form-control" id="symCurrency" name="sym">
-            <option value="HUF">HUF</option>
-            <option value="SEK">SEK</option>
-            <option value="BGN">BGN</option>
-            </select>
-        </div>
-        <input type="submit" class="btn btn-primary" value="Click" name="symbols" />
-    </form>
-
-    {% if compare %}
-        <p style="color: green">{{ compare }}</p>
-    {% endif %} -->
-
 {% endblock content %}
